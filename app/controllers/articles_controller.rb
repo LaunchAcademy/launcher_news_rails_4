@@ -30,6 +30,10 @@ class ArticlesController < ApplicationController
 
   # GET /articles/search
   def search
+    query = "%#{params[:query]}%"
+    @articles = Article
+      .where('title like ? or description like ? or url like ?',
+             query, query, query)
   end
 
   private

@@ -6,18 +6,13 @@
 </p>
 
 <p>
+  <strong>Url:</strong>
+  <%= link_to @article.url, @article.url %>
+</p>
+
+<p>
   <strong>Description:</strong>
   <%= @article.description %>
-</p>
-
-<p>
-  <strong>Url:</strong>
-  <%= @article.url %>
-</p>
-
-<p>
-  <strong>Submitter:</strong>
-  <%= @article.submitter %>
 </p>
 
 <%= link_to 'Back', articles_path %>
