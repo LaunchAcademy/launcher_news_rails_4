@@ -13,6 +13,11 @@
   <div class="navbar">
     <div class="navbar-inner">
       <%= link_to 'Launch News', root_path, class: 'brand' %>
+
+      <%= form_tag(search_articles_path, method: :get, class: 'navbar-form pull-right') do %>
+      <%= text_field_tag 'query', nil, class: 'span4 search-query' %>
+      <%= submit_tag 'Search', class: 'btn' %>
+      <% end %>
     </div>
   </div>
 

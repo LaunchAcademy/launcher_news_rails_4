@@ -28,6 +28,10 @@ class ArticlesController < ApplicationController
     end
   end
 
+  # GET /articles/search
+  def search
+  end
+
   private
 
   # Never trust parameters from the scary internet, only allow the white list through.
