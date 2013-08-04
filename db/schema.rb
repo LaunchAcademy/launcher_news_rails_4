@@ -17,7 +17,6 @@ ActiveRecord::Schema.define(version: 20130804031058) do
     t.string   "title",       null: false
     t.text     "url",         null: false
     t.text     "description"
-    t.string   "submitter"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
