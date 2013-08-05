@@ -1,4 +1,4 @@
-LaunchNews::Application.routes.draw do
+LauncherNews::Application.routes.draw do
   root to: 'articles#index'
 
   resources :articles, only: [:index, :show, :new, :create] do

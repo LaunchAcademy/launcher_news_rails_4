@@ -4,8 +4,8 @@ This is a simple news site used for demoing a basic Rails 4.0 application. Requi
 
 To get up and running, run the following from your Terminal:
 
-    git clone git://github.com/LaunchAcademyEDU/launch_news
-    cd launch_news
+    git clone git://github.com/LaunchAcademyEDU/launcher_news
+    cd launcher_news
 
     bundle install
     rake db:setup

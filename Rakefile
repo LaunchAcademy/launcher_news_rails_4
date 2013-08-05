@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-LaunchNews::Application.load_tasks
+LauncherNews::Application.load_tasks

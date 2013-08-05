@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-LaunchNews::Application.config.secret_key_base = 'dc749641379341b17aea71056a91195988325e1dec1808b43f0430dc791bf70c4d8ad2134207b31f21142343871f778b63be2d7dc6de288b6329fb27e2e8c351'
+LauncherNews::Application.config.secret_key_base = 'dc749641379341b17aea71056a91195988325e1dec1808b43f0430dc791bf70c4d8ad2134207b31f21142343871f778b63be2d7dc6de288b6329fb27e2e8c351'
