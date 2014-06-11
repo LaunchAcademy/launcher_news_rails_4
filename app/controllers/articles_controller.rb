@@ -1,7 +1,5 @@
 class ArticlesController < ApplicationController
 
-  respond_to :html
-
   # GET /articles
   def index
     @articles = Article.all
