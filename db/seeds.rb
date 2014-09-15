@@ -38,7 +38,7 @@ articles =
    }]
 
 articles.each do |info|
-  article = Article.find_or_initialize_by_title(info[:title])
+  article = Article.find_or_initialize_by(title: info[:title])
   article.url = info[:url]
   article.description = info[:description]
   article.save!
